@@ -4,69 +4,138 @@
 	<main id="main">
 		<div class="container">
 
-			<div class ="row">
-				<div class="col-xs-12">
-						<h3>Projects</h3>
-						<p style="text-align:center;">Check out my Programming, Design, and Research Projects by clicking on them! (For keyboard users, the projects should be tabbable as well.)</p>
-				</div>
-			</div>
-
 			<div class="row">
 
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<section class="project" onclick="displayContent(this);" onmouseover="hover(this);" onmouseout="normal(this);" onkeypress="displayContent(this);" tabindex="0" onfocus="hover(this);" onblur="normal(this);">
-						<h3>Free Your Stuff</h3>
-						<h4>Research.</h4>
-						<div class="img-wrapper"><img src="img/fys.png" alt=""></div>
-						<p>resource collection for a free-giving community.</p>
+					<section class="project">
+						<h3>Graphic Design</h3>
+						<h4>Graphic Design. Typography.</h4>
+
+						<div class="overlay-container">
+							<img src="img/floral.jpg" alt="">
+							<a href="graphicdesign.php" hreflang="en" target="_blank">
+								<div class="overlay">
+									<p>Various graphic design samples. </p>
+								</div>
+							</a>
+						</div>
 					</section>
 				</div>
 
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<section class="project" onclick="displayContent(this);" onmouseover="hover(this);" onmouseout="normal(this);" onkeypress="displayContent(this);" tabindex="0" onfocus="hover(this);"  onblur="normal(this);">
+					<section class="project">
+						<h3>Free Your Stuff</h3>
+						<h4>Interaction Design. Prototyping.</h4>
+						<div class="overlay-container">
+							<img src="img/fys.png" alt="">
+							<a href="freeyourstuff.php" hreflang="en" target="_blank">
+								<div class="overlay">
+									<p>mobile app design to share community resources.</p>
+								</div>
+							</a>
+						</div>
+					</section>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-4">
+					<section class="project">
+						<h3>SmartVision</h3>
+						<h4>UX Design. Prototyping. App Dev.</h4>
+						<div class="overlay-container">
+							<img src="img/smartvision.jpg" alt="">
+							<a href="smartvision.php" hreflang="en" target="_blank">
+								<div class="overlay">
+									<p>mobile app design/dev for low-vision people.</p>
+								</div>
+							</a>
+						</div>
+					</section>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-4">
+					<section class="project">
+						<h3>Mobile Site Optimization</h3>
+						<h4>Responsive Web Design. CSS. </h4>
+						<div class="overlay-container">
+							<img src="img/newberry.jpg" alt="">
+							<a href="https://seelio.com/w/2wdn/the-newberry-library-development-office" hreflang="en" target="_blank">
+								<div class="overlay">
+									<p>responsive web redesign for Chicago's Newberry Library.</p>
+								</div>
+							</a>
+						</div>
+					</section>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-4">
+					<section class="project">
 						<h3>Music Recommender</h3>
 						<h4>Python, APIs.</h4>
-						<div class="img-wrapper"><img src="img/music.jpg" alt=""></div>
-						<p>recommends music using the Facebook and Spotify APIs. <a href="https://github.com/chowcy/MusicRecommender" hreflang="en" target="_blank">See the code here.</a></p>
+						<div class="overlay-container">
+							<img src="img/music.jpg" alt="">
+							<a href="https://github.com/chowcy/MusicRecommender" hreflang="en" target="_blank">
+								<div class="overlay">
+									<p>recommends music using the Facebook and Spotify APIs. Click for code.</p>
+								</div>
+							</a>
+						</div>
 					</section>
 				</div>
 
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<section class="project" onclick="displayContent(this);" onmouseover="hover(this);" onmouseout="normal(this);" onkeypress="displayContent(this);" tabindex="0" onfocus="hover(this);" onblur="normal(this);">
-						<h3>2016 openAIR Accessibility Challenge</h3>
-						<h4>Web Design, UX Design, HTML/CSS, PHP.</h4>
-						<div class="img-wrapper"><img src="img/openair.png" alt=""></div>
-						<p>accessibility redesign of SummitIDG's website. In collaboration with Wei Cai, Shuang Liu, Tianyi Liu, Kaiwen Sun, Chen Wang.</p>
+					<section class="project">
+						<h3>openAIR Web Challenge</h3>
+						<h4>Web UX Design, HTML/CSS, PHP.</h4>
+						<div class="overlay-container">
+							<img src="img/openair.png" alt="">
+							<div class="overlay">
+								<p>accessibility redesign of SummitIDG's website.</p>
+							</div>
+						</div>
 					</section>
 				</div>
 
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<section class="project" onclick="displayContent(this);" onmouseover="hover(this);" onmouseout="normal(this);" onkeypress="displayContent(this);" tabindex="0" onfocus="hover(this);" onblur="normal(this);">
-						<h3>2016 Data Dive</h3>
+					<section class="project">
+						<h3>Ann Arbor Data Dive</h3>
 						<h4>Python, Data Retrieval.</h4>
-						<div class="img-wrapper"><img src="img/datadive.jpg" alt=""></div>
-						<p>gets water temperature data for Great Lakes buoys. In collaboration with Vanessa Rychlinski.</p>
+						<div class="overlay-container">
+							<img src="img/datadive.jpg" alt="">
+							<a href="https://github.com/chowcy/GLOSWaterTempDataBuoy" hreflang="en" target="_blank">
+								<div class="overlay">
+									<p>gets water temperature data for Great Lakes buoys. Click for code.</p>
+								</div>
+							</a>
+						</div>
 					</section>
 				</div>
 
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<section class="project" onclick="displayContent(this);" onmouseover="hover(this);" onmouseout="normal(this);" onkeypress="displayContent(this);" tabindex="0" onfocus="hover(this);" onblur="normal(this);">
+					<section class="project">
 						<h3>Conway's Game of Life</h3>
 						<h4>HTML/CSS, JavaScript, Graphics.</h4>
-						<div class="img-wrapper"><img src="img/gol.jpg" alt=""></div>
-						<p>custom, colored Game of Life simulation. In collaboration with Dhananjaya Premawardena, Sam Dunham.</p>
+						<div class="overlay-container">
+							<img src="img/gol.jpg" alt="">
+							<div class="overlay">
+								<p>custom, colored Game of Life simulation. In collaboration with Dhananjaya Premawardena, Sam Dunham.</p>
+							</div>
+						</div>
 					</section>
 				</div>
 
 				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<section class="project" onclick="displayContent(this);" onmouseover="hover(this);" onmouseout="normal(this);" onkeypress="displayContent(this);" tabindex="0" onfocus="hover(this);" onblur="normal(this);">
+					<section class="project">
 						<h3>RGB Consulting</h3>
-						<h4>User Research, Qualitative Research, Contextual Inquiry, Consulting.</h4>
-						<div class="img-wrapper"><img src="img/rgb.jpg" alt=""></div>
-						<p>recommended solutions for a non-profit environmental organization after conducting contextual research. In collaboration with Janet Li, Tianyi Liu, Paul Suvansupa.</p>
+						<h4>User Research, Contextual Inquiry.</h4>
+						<div class="overlay-container">
+							<img src="img/rgb.jpg" alt="">
+							<div class="overlay">
+								<p>consulting for a non-profit after conducting contextual research. With Janet Li, Tianyi Liu, Paul Suvansupa.</p>
+							</div>
+						</div>
 					</section>
 				</div>
-
+<!--
 				<div class="col-xs-12 col-sm-6 col-lg-4">
 					<section class="project" onclick="displayContent(this);" onmouseover="hover(this);" onmouseout="normal(this);" onkeypress="displayContent(this);" tabindex="0" onfocus="hover(this);" onblur="normal(this);">
 						<h3>2016 InfoGamers Design Jam</h3>
@@ -84,6 +153,7 @@
 						<p>a campaign design to sustain donations. In collaboration with Amy Chen, Gary Cheung, Jasmine Duan, Lauren Sheridan.</p>
 					</section>
 				</div>
+-->
 
 			</div>
 		</div>

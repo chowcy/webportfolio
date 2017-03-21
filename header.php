@@ -11,8 +11,8 @@
 										else if ($resume) { echo "de/resume.php";} 
 										else { echo "de/index.php";}?> hreflang="de"><img src="img/german.png" alt="german icon"  class="icon"><span aria-label="german" id="de"></span></a></li>
 			</ul>
-				<h1>CATHY CHOW </br></br>
-			Programmer. Designer. Humanist.</h1>
+				<h1><span id="name">CATHY CHOW</span> </br></br>
+					Programmer. Designer. Humanist.</h1>
 
 
 			<nav>

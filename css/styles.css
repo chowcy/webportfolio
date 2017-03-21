@@ -4,13 +4,18 @@ body {
 }
 
 h1 {
-	text-shadow: 2px 2px #888888;
+	/*text-shadow: 2px 2px #888888;*/
 	padding: 9%;
 	text-align: center;
+
+}
+
+#name{
+	font-size: 2em;
 	font-weight: bolder;
 }
 
-h2, h3 {
+h2, h3, h4 {
 	text-align: center;
 }
 h3 {
@@ -26,10 +31,10 @@ ul {
 
 .active {
 	font-weight: 900;
-	text-transform: uppercase;
-	color: black;
-	background-color: white;
-	text-shadow: 2px 2px #888888;
+	color: #23527c;
+
+	background-color: #eee;
+	/*text-shadow: 2px 2px #888888;*/
 }
 
 aside {
@@ -51,7 +56,7 @@ section {
 	margin-bottom: 25px;
 	color: #23527c;
 	background-color: white; /* #eee;rgba(245, 245, 200, 0.5); */
-	box-shadow: 5px 5px 1px #888888;
+	/*box-shadow: 5px 5px 1px #888888;*/
 	font-size: 18px;
 	font-weight: lighter;
 }
@@ -85,6 +90,7 @@ header {
     #de:after{
     	content: "DEUTSCH";
     }
+    /*
     #linkedin:after {
     	content: " LinkedIn";
     }
@@ -96,7 +102,7 @@ header {
     }
     #email:after {
     	content: " Email";
-    }
+    }*/
     #skiptomain:focus {
     	background-color: white;
     	color: black;
@@ -127,9 +133,9 @@ aside {
 }
 img {
 	margin: 0em auto 2em auto;
-	border: 2px solid gray;
+	/*border: 2px solid gray;*/
 	padding: 0;
-	box-shadow: 5px 5px 1px #888888;
+	/*box-shadow: 5px 5px 1px #888888;*/
 }
 
 iframe {
@@ -137,8 +143,9 @@ iframe {
 	display: block;
 	box-shadow: 5px 5px 1px #888888;
 }
+/*
 .project p {
-	display: none;	/**/
+	display: none;
 	opacity: 0;
 	-webkit-transition: all 3s ease-in-out;
     -moz-transition: all 3s ease-in-out;
@@ -166,9 +173,81 @@ iframe {
 	max-height: 10em;
 	max-width: 100%;
 	display:inline-block;
+	border: none;
+	box-shadow: none;
+
+}*/
+
+/*testing hover*/
+.project {
+	text-align: center;
+	height: 20em;
+	background-color: white;
+	border: 3px solid white;
+	box-shadow: 5px 5px 1px #888888;
 
 }
 
+.overlay-container {
+  position: relative;
+}
+
+.project img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #d3a0f3;
+}
+
+.overlay-container:hover .overlay, .overlay-container:focus .overlay {
+  opacity: 1;
+}
+
+.project p {
+	width: 80%;
+	font-size: 1.2em;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+ 	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+
+.sample520 img{
+	box-shadow: none;
+	border: none;
+}
+
+.sample520 {
+	text-align: center;
+}
+
+.portfolio-section {
+	text-align: center;
+}
+
+.portfolio-section p {
+	max-width: 40em;
+	text-align: left;
+	margin: 0 auto;
+	padding-bottom: 1.5em;
+
+}
 .book-title {
 	font-style: italic;
 }
