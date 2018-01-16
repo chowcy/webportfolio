@@ -12,3 +12,5 @@
 	<script type="text/javascript" src="../js/script.js"></script>
         <title>Cathy | <?php echo $title; ?></title>
     </head>
+    <body>
+    	   <?php include_once("analyticstracking.php") ?>

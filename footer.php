@@ -5,5 +5,6 @@
 				<li><a href="mailto:chowcy@umich.edu" hreflang="en" target="_blank" aria-label="email"><i class="fa fa-envelope"></i><span id="email"></span></a></li>
 			</ul>
 
-			<aside>&copy; Cathy Chow (<a href="mailto:chowcy@umich.edu" hreflang="en">chowcy@umich.edu</a>), last updated Mar 18, 2017</aside>
+			<aside>&copy; Cathy Chow (<a href="mailto:chowcy@umich.edu" hreflang="en">chowcy@umich.edu</a>)</aside>
 		</footer>
+		<script src="js/lightbox-plus-jquery.js"></script>

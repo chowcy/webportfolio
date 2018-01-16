@@ -1,13 +1,13 @@
 <html lang="en">
-<?php $title='Translation'; include("head.php");?> 
-<?php $translation = true; include("header.php");?> 
+<?php $title='Translation'; include("head.php");?>
+<?php $translation = true; include("header.php");?>
 	<main id="main">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
 					<section id="transportfolio">
 						<h3>Translation Portfolio</h3>
-						<p>This is more of a side thing, but I have a great deal of experience and passion for translation and languages, having been raised bilingually and studied German in undergrad. I have translated advertisements, press releases, medical research articles, short literature, and so much more! Read on about my translation projects below and check out my list of translation samples. If the item is starred, you can email <a href='mailto:chowcy@umich.edu'>chowcy@umich.edu</a> to view my sample translation of it!</p>
+						<p>I have a great deal of experience and passion for translation and languages, having been raised bilingually and studied German in undergrad. I have translated advertisements, press releases, medical research articles, short literature, and so much more! Read on about my translation projects below and check out my list of translation samples. If the item is starred, you can email <a href='mailto:chowcy@umich.edu'>chowcy@umich.edu</a> to view my sample translation of it!</p>
 						<ul>
 							<li>*<span class="book-title" lang="de">Fluidk&ouml;pfe</span> - Sachtler
 								<ul>
@@ -64,12 +64,12 @@
 				<div class="col-xs-12 col-lg-6" >
 					<section>
 					<h3>Volunteer Translator at the Language Resource Center's Language Bank</h3>
-					<p>Since 2013, I have been a volunteer translator for the University of Michigan Language 
-						Resource Center's Language Bank, which provides free voluntary translation services to 
+					<p>Since 2013, I have been a volunteer translator for the University of Michigan Language
+						Resource Center's Language Bank, which provides free voluntary translation services to
 						"non-profit organizations, social justice efforts, and the local community" in particular.
 						 <a href="https://lsa.umich.edu/lrc/translation/LanguageBank.html" hreflang="en" target="_blank">
-						 	Check out the Language Bank's website here!</a> As a Language Bank Volunteer, 
-						 	I have proofread an article for 350.org and translated a rather hefty medical journal 
+						 	Check out the Language Bank's website here!</a> As a Language Bank Volunteer,
+						 	I have proofread an article for 350.org and translated a rather hefty medical journal
 						 	article for a research team at the University.</p>
 					</section>
 				</div>
@@ -77,6 +77,6 @@
 
 		</div>
 	</main>
-	<?php include("footer.php");?> 
+	<?php include("footer.php");?>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <html lang="en">
-<?php $title = 'Home'; include("head.php");?> 
+<?php $title = 'Home'; include("head.php");?>
 
-<?php $home = true; include("header.php");?> 
+<?php $home = true; include("header.php");?>
 	<main id="main">
 		<div class="container">
 			<div class="row">
@@ -11,22 +11,24 @@
 				<div class="col-xs-12 col-lg-6">
 					<section id="about" >
 						<h3>About</h3>
-							<p>Hello! I am a first-year Master's student specializing in Human-Computer Interaction 
-								at the University of Michigan School of Information. Before starting school, 
-								I taught English in Mainz, Germany as part of the Fulbright English Teaching Assistant Program. 
-								The picture to the left is from a half-marathon I ran in Mainz.
+							<p>Hello! My name's Cathy.
 							</p>
-							<p>
-								I have a specific interest in designs that are accessible regardless of ability, 
-								language, and device. (I am still learning!) Feel free to check out my projects 
-								and send me an email if you want more information!
+							<p>I am:
+								<ul>
+									<li>a <a href="https://github.com/chowcy">programmer</a>,</li>
+									<li>a <a href="projects.php">designer</a>,</li>
+									<li>a <a href="translation.php">translator</a>,</li>
+									<li>an <a href="img/educating.jpg">educator</a>, and</li>
+									<li>a <a href="https://www.goodreads.com/user/show/5364555-cathy-chow">reader</a>.</li>
+								</ul>
 							</p>
+							<p>I am currently seeking a full-time job in design or development starting May 2018. Feel free to contact me at chowcy (at) umich (dot) edu!</p>
 					</section>
-					
+
 				</div>
 			</div>
 		</div>
 	</main>
-	<?php include("footer.php");?> 
+	<?php include("footer.php");?>
 </body>
 </html>

@@ -16,28 +16,43 @@
 		<section class="portfolio-section">
 			<h3>Competitive Analysis</h3>
 				<p>Next, I ran a competitive analysis to see how the problem of unnecessary waste is currently being handled. I compared these solutions by several factors: price/cost, trust/safety, and whether it helps people in need.</p>
-				<img src="img/competitiveanalysis.jpg" width='50%' alt="competitive analysis chart">
+				<a href="img/competitiveanalysis.jpg" data-lightbox="fys" data-title="Competitve Analysis Chart">
+					<img src="img/competitiveanalysis.jpg" width='50%' alt="competitive analysis chart">
+				</a>
 		</section>
 		<section class="portfolio-section">
 			<h3>Sketching</h3>
 				<p>I brainstormed and sketched potential solutions and stories.</p>
-				<img src="img/582sketches.jpg" width='50%' alt="brainstorming sketches">
+				<a href="img/582sketches.jpg" data-lightbox="fys" data-title="First round of brainstorming sketches">
+					<img src="img/582sketches.jpg" width='50%' alt="brainstorming sketches">
+				</a>
+				
 		</section>
 		<section class="portfolio-section">
 			<h3>Personas</h3>
 				<p>I created 5 personas with diverse demographics. One was an anti-persona. This helped me step through scenarios as different personas to better understand how my solution could be designed and used.</p>
-				<img src="img/personas.jpg" width='50%' alt="some personas">
+				<a href="img/personas.jpg" data-lightbox="fys" data-title="Collage of Personas Created">
+					<img src="img/personas.jpg" width='50%' alt="some personas">
+				</a>
 		</section>
 		<section class="portfolio-section">
 			<h3>Paper Prototype</h3>
-				<p>I made a paper prototype to show the interactions for my app. My next step is to test this paper prototype with users to gain feedback.</p>
+				<p>I made a paper prototype to show the interactions for my app. I tested this paper prototype with users to gain feedback.</p>
 				<iframe width="560" height="340" src="https://www.youtube.com/embed/PHhft_YIWkQ" frameborder="0" allowfullscreen>Free Your Stuff Paper Prototype</iframe>
 		</section>
 
 		<section class="portfolio-section">
-			<h3>Next Steps</h3>
-				<p>Using the feedback from my paper prototype, I plan to iterate and redesign the paper prototype before creating a digital prototype I can use for user testing.</p>
-				
+			<h3>Digital Prototype</h3>
+				<p>Using the feedback from my paper prototype, I created a mid-to-high fi digital prototype that I then tested with three users.</p>
+				<a href="img/fys.jpg" data-lightbox="fys" data-title="Mid-fi Digital Prototype">
+					<img src="img/fys.jpg" width='30%' alt="mid-fi digital prototype">
+				</a>
+		</section>
+
+		<section class="portfolio-section">
+			<h3>Revised Digital Prototype</h3>
+				<p>After two more iterations and more user feedback, I produced a hi-fi digital prototype of my app.</p>
+				<iframe width="560" height="340" src="https://www.youtube.com/embed/L8mPY4RmsSs?ecver=1" frameborder="0" allowfullscreen>Free Your Stuff Digital Prototype</iframe>
 		</section>
 
 

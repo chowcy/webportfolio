@@ -1,18 +1,18 @@
 	    <header>
 			<div><a id="skiptomain" href="#main">Skip to Main Content</a></div>
 			<ul aria-label="language toggle" class="nav navbar-nav language-toggle">
-					<li><a href=<?php if ($projects) { echo "projects.php";} 
-										elseif ($translation) { echo "translation.php";} 
-										else if ($resume) { echo "resume.php";} 
-										else { echo "index.php";}?> 
+					<li><a href=<?php if ($projects) { echo "projects.php";}
+										elseif ($translation) { echo "translation.php";}
+										else if ($resume) { echo "resume.php";}
+										else { echo "index.php";}?>
 										hreflang="en"><img src="img/english.png" alt="english icon" class="icon"><span aria-label="english" id="en"></span></a></li>
-					<li><a href=<?php if ($projects) { echo "de/projects.php";} 
-										elseif ($translation) { echo "de/translation.php";} 
-										else if ($resume) { echo "de/resume.php";} 
+					<li><a href=<?php if ($projects) { echo "de/projects.php";}
+										elseif ($translation) { echo "de/translation.php";}
+										else if ($resume) { echo "de/resume.php";}
 										else { echo "de/index.php";}?> hreflang="de"><img src="img/german.png" alt="german icon"  class="icon"><span aria-label="german" id="de"></span></a></li>
 			</ul>
-				<h1><span id="name">CATHY CHOW</span> </br></br>
-					Programmer. Designer. Humanist.</h1>
+				<h1><span id="name">CATHY Y CHOW</span> </br></br>
+					Programmer and UX Designer</h1>
 
 
 			<nav>

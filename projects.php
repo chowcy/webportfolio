@@ -27,10 +27,25 @@
 						<h3>Free Your Stuff</h3>
 						<h4>Interaction Design. Prototyping.</h4>
 						<div class="overlay-container">
-							<img src="img/fys.png" alt="">
+							<img src="img/freeyourstufflogo.jpg" alt="">
 							<a href="freeyourstuff.php" hreflang="en" target="_blank">
 								<div class="overlay">
 									<p>mobile app design to share community resources.</p>
+								</div>
+							</a>
+						</div>
+					</section>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-4">
+					<section class="project">
+						<h3>Harman Consulting</h3>
+						<h4>UX Research. Needs Assessment.</h4>
+						<div class="overlay-container">
+							<img src="img/harman.jpg" alt="">
+							<a href="harman.php" hreflang="en" target="_blank">
+								<div class="overlay">
+									<p>usability research on an in-vehicle infotainment system.</p>
 								</div>
 							</a>
 						</div>
@@ -122,7 +137,7 @@
 						</div>
 					</section>
 				</div>
-
+<!--
 				<div class="col-xs-12 col-sm-6 col-lg-4">
 					<section class="project">
 						<h3>RGB Consulting</h3>
@@ -135,7 +150,7 @@
 						</div>
 					</section>
 				</div>
-<!--
+
 				<div class="col-xs-12 col-sm-6 col-lg-4">
 					<section class="project" onclick="displayContent(this);" onmouseover="hover(this);" onmouseout="normal(this);" onkeypress="displayContent(this);" tabindex="0" onfocus="hover(this);" onblur="normal(this);">
 						<h3>2016 InfoGamers Design Jam</h3>
