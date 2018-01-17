@@ -1,21 +1,21 @@
 <html lang="en">
-	<?php $title='Free Your Stuff'; include("head.php");?> 
-	<?php $projects = true; include("header.php");?> 
+	<?php $title='Free Your Stuff'; include("head.php");?>
+	<?php $projects = true; include("header.php");?>
 	<main id="main">
 		<section class="portfolio-section">
 			<h3>Free Your Stuff</h3>
 			<h4>Interaction Design. Prototyping.</h4>
-			<p>(ongoing) design for a mobile app to share resources in the community.</p>
+			<p>design for a mobile app to share resources in the community.</p>
 		</section>
 		<section class="portfolio-section">
 			<h3>Problem and Goal Statement</h3>
-				<p>There is a lot of waste in Ann Arbor because many people move in and out. I would like to connect local
-					community members needing and wanting resources to those who have them and
+				<p>There is a lot of waste in Ann Arbor because so many people move in and out. Local
+					community members needing and wanting resources should be connected to those who have them and
 					want to get rid of them so that less environmental waste is created.</p>
 		</section>
 		<section class="portfolio-section">
 			<h3>Competitive Analysis</h3>
-				<p>Next, I ran a competitive analysis to see how the problem of unnecessary waste is currently being handled. I compared these solutions by several factors: price/cost, trust/safety, and whether it helps people in need.</p>
+				<p>I ran a competitive analysis to see how the problem of unnecessary waste is currently being handled. I compared these solutions by several factors: price/cost, trust/safety, and whether it helps people in need.</p>
 				<a href="img/competitiveanalysis.jpg" data-lightbox="fys" data-title="Competitve Analysis Chart">
 					<img src="img/competitiveanalysis.jpg" width='50%' alt="competitive analysis chart">
 				</a>
@@ -26,7 +26,7 @@
 				<a href="img/582sketches.jpg" data-lightbox="fys" data-title="First round of brainstorming sketches">
 					<img src="img/582sketches.jpg" width='50%' alt="brainstorming sketches">
 				</a>
-				
+
 		</section>
 		<section class="portfolio-section">
 			<h3>Personas</h3>
@@ -58,6 +58,6 @@
 
 
 	</main>
-	<?php include("footer.php");?> 
+	<?php include("footer.php");?>
 </body>
 </html>

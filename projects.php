@@ -1,26 +1,10 @@
 <html lang="en">
-<?php $title='Projects'; include("head.php");?> 
-<?php $projects = true; include("header.php");?> 
+<?php $title='Projects'; include("head.php");?>
+<?php $projects = true; include("header.php");?>
 	<main id="main">
 		<div class="container">
 
 			<div class="row">
-
-				<div class="col-xs-12 col-sm-6 col-lg-4">
-					<section class="project">
-						<h3>Graphic Design</h3>
-						<h4>Graphic Design. Typography.</h4>
-
-						<div class="overlay-container">
-							<img src="img/floral.jpg" alt="">
-							<a href="graphicdesign.php" hreflang="en" target="_blank">
-								<div class="overlay">
-									<p>Various graphic design samples. </p>
-								</div>
-							</a>
-						</div>
-					</section>
-				</div>
 
 				<div class="col-xs-12 col-sm-6 col-lg-4">
 					<section class="project">
@@ -76,6 +60,22 @@
 							<a href="https://seelio.com/w/2wdn/the-newberry-library-development-office" hreflang="en" target="_blank">
 								<div class="overlay">
 									<p>responsive web redesign for Chicago's Newberry Library.</p>
+								</div>
+							</a>
+						</div>
+					</section>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-4">
+					<section class="project">
+						<h3>Graphic Design</h3>
+						<h4>Graphic Design. Typography.</h4>
+
+						<div class="overlay-container">
+							<img src="img/floral.jpg" alt="">
+							<a href="graphicdesign.php" hreflang="en" target="_blank">
+								<div class="overlay">
+									<p>Various graphic design samples. </p>
 								</div>
 							</a>
 						</div>
@@ -173,6 +173,6 @@
 			</div>
 		</div>
 	</main>
-	<?php include("footer.php");?> 
+	<?php include("footer.php");?>
 </body>
 </html>
