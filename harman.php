@@ -1,11 +1,11 @@
 <html lang="en">
-	<?php $title='Harman Consulting'; include("head.php");?> 
-	<?php $projects = true; include("header.php");?> 
+	<?php $title='Harman Consulting'; include("head.php");?>
+	<?php $projects = true; include("header.php");?>
 	<main id="main">
 		<section class="portfolio-section">
 			<h3>Harman Consulting</h3>
 			<h4>UX Researcher. Consultant.</h4>
-			<p>(ongoing) user research project for an in-vehicle infotainment system made by Harman International.</p>
+			<p>user research project for an in-vehicle infotainment system made by Harman International.</p>
 		</section>
 
 		<section class="portfolio-section">
@@ -37,7 +37,7 @@
 			</a>
 			<aside>Graphics by Raden</aside>
 			<p>Our surveys and interviews helped us understand the user population and the contexts in which users interact with infotainment systems. We summarized this information into personas and scenarios, which are design artifacts we constructed to guide our thinking during the evaluation process. Next, we turned to heuristic evaluations and usability testing to assess the usability of Harman's product. </p>
-	
+
 		</section>
 		<section class="portfolio-section">
 			<h3>Heuristic Evaluation</h3>
@@ -58,6 +58,6 @@
 			<p>Special thanks to my wonderful teammates <a href="http://kaiwensun.me" hreflang="en" target="_blank">Kaiwen Sun</a>, <a href="http://radentonev.com" hreflang="en" target="_blank">Raden Tonev</a>, and Seungjoo David Baek for their contributions.</p>
 		</section>
 	</main>
-	<?php include("footer.php");?> 
+	<?php include("footer.php");?>
 </body>
 </html>
