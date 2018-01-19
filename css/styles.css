@@ -1,25 +1,29 @@
 body {
 	background-color: rgb(225, 230, 240);
 	font-family: Tahoma, "Helvetica Neue", Helvetica, sans-serif;
+	margin-top: 80px;
 }
 
 h1 {
 	/*text-shadow: 2px 2px #888888;*/
-	padding: 1%;
-	text-align: center;
-
+	color: #663366;
+	font-size: 24px;
+	margin: 0;
 }
 
 #name{
-	font-size: 2em;
+	font-size: 36px;
 	font-weight: bolder;
 }
 
-h2, h3, h4 {
+h1, h2, h3, h4 {
+	font-family: Tahoma, "Helvetica Neue", Helvetica, sans-serif;
 	text-align: center;
 }
 h3 {
 	font-weight: bold;
+	font-size: 24px;
+	color: #663366;
 }
 h4 {
 	font-style: italic;
@@ -48,6 +52,7 @@ aside {
 .language-toggle {
 	position: absolute;
 	right: 5px;
+	top: 0;
 }
 p {
 	font-size: 16px;
@@ -67,17 +72,22 @@ section {
 }
 
 header {
-	padding: 1em 0;
-	background-color: rgb(245, 245, 200);
-	margin-bottom: 1em;
+	background-color: #FFFFFF;
+	left: 0;
+	/* margin-bottom: 1em; */
+	padding: 15px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 10;
 }
 /*for medium/tablet screens*/
 @media all and (min-width: 768px){
 	header{
-		background-image:
+		/* background-image:
 		linear-gradient(rgba(255, 255, 255, 0.5),
     					rgba(255, 255, 255, 0.5)),
-    	url('../img/dresden.jpg');
+    	url('../img/dresden.jpg'); */
     }
     #en:after{
     	content: "EN";
@@ -263,7 +273,22 @@ iframe {
 }
 .navbar-nav {
 	float: none;
-	background-color: rgba(230, 230, 230, 0.9);
+	/* background-color: rgba(230, 230, 230, 0.9); */
+	background-color: rgba(0,0,0,0);
+	margin: 0 auto;
+	max-width: 500px;
+}
+.navbar-nav h2 {
+	margin: 0;
+}
+@media (min-width: 768px) {
+	.navbar-nav>li>a {
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+}
+nav {
+	z-index: 10;
 }
 
 .external-links {
@@ -278,6 +303,10 @@ iframe {
 	border: none;
 	box-shadow: none;
 	margin: 0;
+}
+
+.uk-panel-box {
+	background: none;
 }
 
 
