@@ -58,7 +58,7 @@
                </section>
             </div>
          </div>
-         <div class="uk-width-1-3" data-grid-prepared="true" data-uk-filter="filter-a">
+         <div class="uk-width-1-3" data-grid-prepared="true" data-uk-filter="filter-b">
             <div class="uk-panel-box">
                <section class="project">
                   <h3>Mobile Site Optimization</h3>
@@ -74,7 +74,7 @@
                </section>
             </div>
          </div>
-         <div class="uk-width-1-3" data-grid-prepared="true" data-uk-filter="filter-b">
+         <div class="uk-width-1-3" data-grid-prepared="true" data-uk-filter="filter-a">
             <div class="uk-panel-box">
                <section class="project">
                   <h3>Graphic Design</h3>
