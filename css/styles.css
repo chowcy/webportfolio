@@ -29,6 +29,7 @@ h3 {
 
 h4 {
 	font-style: italic;
+	margin-top: 0;
 }
 
 iframe {
@@ -114,6 +115,10 @@ header {
 	margin: 0;
 }
 
+.navbar-header a {
+	display: inline-block;
+}
+
 .active {
 	background-color: #eee;
 	color: #23527c;
@@ -148,11 +153,17 @@ header {
 	font-weight: bolder;
 }
 
+#name-subtitle {
+	color: #444;
+	display: none;
+}
+
 /* PROJECTS PAGE WITH GRID */
 .project {
 	background-color: white;
 	border: 3px solid white;
 	height: 20em;
+	overflow: hidden;
 	text-align: center;
 	/*box-shadow: 5px 5px 1px #888888;*/
 }
@@ -187,7 +198,7 @@ header {
 
 .project p {
 	color: #fff;
-	font-size: 1.2em;
+	font-size: 18px;
 	left: 50%;
 	position: absolute;
 	top: 50%;
@@ -204,6 +215,10 @@ header {
 	margin-left: 0;
 	margin-top: 0;
 	padding: 0;
+}
+
+.uk-subnav-pill > .uk-active > * {
+	background-color: #663366;
 }
 
 /* TRANSLATIONS PAGE */
@@ -268,11 +283,14 @@ footer {
 
 /*for large screens*/
 @media all and (min-width: 1244px){
-    #skiptomain:focus {
-    	background-color: white;
-    	color: black;
-    	font-weight: bold;
-    	top: 0px;
-    	padding: 1em;
-    }
+	#skiptomain:focus {
+		background-color: white;
+		color: black;
+		font-weight: bold;
+		top: 0px;
+		padding: 1em;
+	}
+	#name-subtitle {
+		display: inline;
+	}
 }
