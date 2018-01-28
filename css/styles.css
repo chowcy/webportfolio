@@ -8,6 +8,7 @@ body {
 	background-color: rgb(225, 230, 240);
 	font-family: Tahoma, "Helvetica Neue", Helvetica, sans-serif;
 	margin-top: 80px;
+	margin-top: 122px;
 }
 
 h1, h2, h3, h4 {
@@ -107,7 +108,11 @@ header {
 	background-color: rgba(0, 0, 0, 0);
 	float: none;
 	margin: 0 auto;
-	max-width: 500px;
+	max-width: 330px;
+}
+
+.navbar-nav > li {
+	float: left;
 }
 
 .navbar-nav h2 {
@@ -277,12 +282,15 @@ footer {
 
 /* MEDIA QUERIES */
 
-/*for medium/tablet screens*/
+/*for medium/tablet screens and bigger*/
 @media all and (min-width: 768px){
  	.navbar-nav > li > a {
  		padding-bottom: 10px;
  		padding-top: 10px;
  	}
+	body {
+		margin-top: 80px;
+	}
 }
 
 /*for large screens*/
