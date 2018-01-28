@@ -115,6 +115,10 @@ header {
 	float: left;
 }
 
+.navbar-nav > li > a:hover {
+	background: none;
+}
+
 .navbar-nav h2 {
 	margin: 0;
 }
@@ -124,21 +128,21 @@ header {
 }
 
 .active {
-	background-color: #eee;
+	/* background-color: #eee; */
 	color: #23527c;
 	font-weight: 900;
 	/*text-shadow: 2px 2px #888888;*/
 }
 
-.active:after {
+.active h2:after, .navbar-nav > li > a:hover:after {
 	background: #663366;
 	bottom:0;
 	content:"";
 	display: block;
 	height: 2px;
-	left: 0;
+	left: 15px;
 	position: absolute;
-	width: 100%;
+	right: 15px;
 }
 
 .language-toggle {
