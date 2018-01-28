@@ -24,7 +24,6 @@ h1 {
 h3 {
 	color: #663366;
 	font-size: 24px;
-	font-weight: bold;
 }
 
 h4 {
@@ -220,6 +219,11 @@ header {
 .uk-subnav-pill > .uk-active > * {
 	background-color: #663366;
 }
+
+.uk-subnav-pill > * > :hover {
+    background: #663366;
+    color: #FFF;
+ }
 
 /* TRANSLATIONS PAGE */
 .book-title {
