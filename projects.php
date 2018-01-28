@@ -14,7 +14,7 @@
             <div class="uk-panel-box">
                <section class="project">
                   <h3>Free Your Stuff</h3>
-                  <h4>UX Design. Interaction Design.</h4>
+                  <h4>UX Design.</h4>
                   <div class="overlay-container">
                      <img class="img-responsive" src="img/tile-freeyourstuff.jpg" alt="">
                      <a href="freeyourstuff.php" hreflang="en">
@@ -62,7 +62,7 @@
             <div class="uk-panel-box">
                <section class="project">
                   <h3>Mobile Site Optimization</h3>
-                  <h4>Responsive Web Design. HTML/CSS. </h4>
+                  <h4>Responsive Web Design.</h4>
                   <div class="overlay-container">
                      <img class="img-responsive" src="img/tile-newberry.jpg" alt="">
                      <a href="https://seelio.com/w/2wdn/the-newberry-library-development-office" hreflang="en" target="_blank">
@@ -110,7 +110,7 @@
             <div class="uk-panel-box">
                <section class="project">
                   <h3>openAIR Web Challenge</h3>
-                  <h4>Web Design, HTML/CSS, PHP.</h4>
+                  <h4>Web Design, Wordpress.</h4>
                   <div class="overlay-container">
                      <img class="img-responsive" src="img/tile-openair.jpg" alt="">
                      <a href="http://acce.knowbility.org.php56-11.dfw3-2.websitetestlink.com/" hreflang="en" target="_blank">

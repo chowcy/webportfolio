@@ -166,7 +166,8 @@ header {
 .project {
 	background-color: white;
 	border: 3px solid white;
-	height: 20em;
+	/* height: 20em; */
+	height: 100%;
 	overflow: hidden;
 	text-align: center;
 	/*box-shadow: 5px 5px 1px #888888;*/
@@ -180,6 +181,7 @@ header {
 	border: none;
 	display: block;
 	height: auto;
+	margin: 0;
 	width: 100%;
 }
 
@@ -290,6 +292,9 @@ footer {
  	}
 	body {
 		margin-top: 80px;
+	}
+	.project {
+		min-width: 345px;
 	}
 }
 
