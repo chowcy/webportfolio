@@ -38,7 +38,11 @@
 		<section class="portfolio-section">
 			<h3>Paper Prototype</h3>
 				<p>I made a paper prototype to show the interactions for my app. I tested this paper prototype with users to gain feedback.</p>
-				<iframe width="560" height="340" src="https://www.youtube.com/embed/PHhft_YIWkQ" frameborder="0" allowfullscreen>Free Your Stuff Paper Prototype</iframe>
+				<div class="embed-size margin0auto">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PHhft_YIWkQ" frameborder="0" allowfullscreen>Free Your Stuff Paper Prototype</iframe>
+					</div>
+				</div>
 		</section>
 
 		<section class="portfolio-section">
@@ -52,7 +56,11 @@
 		<section class="portfolio-section">
 			<h3>Revised Digital Prototype</h3>
 				<p>After two more iterations and more user feedback, I produced a hi-fi digital prototype of my app.</p>
-				<iframe width="560" height="340" src="https://www.youtube.com/embed/L8mPY4RmsSs?ecver=1" frameborder="0" allowfullscreen>Free Your Stuff Digital Prototype</iframe>
+				<div class="embed-size margin0auto">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L8mPY4RmsSs?ecver=1" allowfullscreen>Free Your Stuff Digital Prototype</iframe>
+					</div>
+				</div>
 		</section>
 
 

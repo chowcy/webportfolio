@@ -62,7 +62,7 @@ section {
 	font-size: 18px;
 	font-weight: lighter;
 	margin-bottom: 25px;
-	padding: 2em;
+	padding: 1em;
 }
 
 ul {
@@ -89,6 +89,10 @@ ul {
 
 .external-links a:hover {
 	text-decoration: none;
+}
+/*ADD STYLES TO ANYTHING*/
+.margin0auto {
+	margin: 0 auto;
 }
 
 /*HEADER*/
@@ -269,6 +273,14 @@ header {
 	font-style: italic;
 }
 
+.embed-responsive {
+	margin: 0 auto;
+	min-width: 250px;
+	min-height: calc(250px*9/16);
+	max-width: 768px;
+	max-height: calc(768px*9/16);
+}
+
 /* GRAPHIC DESIGN PAGE */
 .sample520 img{
 	border: none;
@@ -290,15 +302,21 @@ footer {
 
 /*for medium/tablet screens and bigger*/
 @media all and (min-width: 768px){
- 	.navbar-nav > li > a {
- 		padding-bottom: 10px;
- 		padding-top: 10px;
- 	}
 	body {
 		margin-top: 80px;
 	}
+	section {
+		padding: 1em;
+	}
+	.navbar-nav > li > a {
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
 	.project {
 		min-width: 345px;
+	}
+	.embed-size {
+		max-width: 768px;
 	}
 }
 

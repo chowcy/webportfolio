@@ -58,7 +58,9 @@
 							For example, the first time I attended, the German team worked on transcribing and translating a handwritten letter from a
 							WWII <span lang="de">Theresienstadt</span> Concentration Camp survivor. What an exciting project! I have since participated three times and have had
 							so much fun every time. Check out the <a href="https://www.lrc.lsa.umich.edu/translate-a-thon/" hreflang="en" target="_blank">Language Resource Center's Translate-a-thon website</a>! I am featured in one of their videos.</p>
-							<iframe width="427" height="240" src="https://www.youtube.com/embed/PChn-wCiutA" allowfullscreen>UM World Class: Translation for a Cause</iframe>
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PChn-wCiutA" allowfullscreen>UM World Class: Translation for a Cause</iframe>
+							</div>
 					</section>
 				</div>
 				<div class="col-xs-12 col-lg-6" >
