@@ -1,7 +1,7 @@
 <html lang="en">
-<?php $title = 'Home'; include("head.php");?>
+<?php $title = 'About'; include("head.php");?>
 
-<?php $home = true; include("header.php");?>
+<?php $about = true; include("header.php");?>
 	<main id="main">
 		<div class="container">
 			<div class="row">
