@@ -17,7 +17,7 @@
                   <h4>UX Design. Interaction Design.</h4>
                   <div class="overlay-container">
                      <img class="img-responsive" src="img/tile-freeyourstuff.jpg" alt="">
-                     <a href="freeyourstuff.php" hreflang="en" target="_blank">
+                     <a href="freeyourstuff.php" hreflang="en">
                        <div class="overlay">
                           <p>mobile app design to share community resources.</p>
                        </div>
@@ -33,7 +33,7 @@
                   <h4>UX Research. Consulting.</h4>
                   <div class="overlay-container">
                      <img class="img-responsive" src="img/tile-harman.jpg" alt="">
-                     <a href="harman.php" hreflang="en" target="_blank">
+                     <a href="harman.php" hreflang="en">
                         <div class="overlay">
                            <p>usability research on an in-vehicle infotainment system.</p>
                         </div>
@@ -49,7 +49,7 @@
                   <h4>UX Design. UX Research. </h4>
                   <div class="overlay-container">
                      <img class="img-responsive" src="img/tile-smartvision.jpg" alt="">
-                     <a href="smartvision.php" hreflang="en" target="_blank">
+                     <a href="smartvision.php" hreflang="en">
                         <div class="overlay">
                            <p>mobile app design/dev for low-vision people.</p>
                         </div>
@@ -81,7 +81,7 @@
                   <h4>Graphic Design. Typography.</h4>
                   <div class="overlay-container">
                      <img class="img-responsive" src="img/tile-floral.jpg" alt="">
-                     <a href="graphicdesign.php" hreflang="en" target="_blank">
+                     <a href="graphicdesign.php" hreflang="en">
                         <div class="overlay">
                            <p>Various graphic design samples. </p>
                         </div>
