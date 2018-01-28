@@ -6,7 +6,6 @@
 					<li><a href="index.php" hreflang="en" class=<?php if ($about) { echo "active";}?>><h2>About</h2></a></li>
 					<li><a href="projects.php" hreflang="en" class=<?php if ($projects) { echo "active";}?>><h2>Projects</h2></a></li>
 					<li><a href="resume.php" hreflang="en" class=<?php if ($resume) { echo "active";}?>><h2>Resume</h2></a></li>
-					<!-- <li><a href="translation.php" hreflang="en" class=<?php //if ($translation) { echo "active";}?>><h2>Translations</h2></a></li> -->
 				</ul>
 			</nav>
 		</header>
