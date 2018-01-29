@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 	<?php $title='Free Your Stuff'; include("head.php");?>
 	<?php $projects = true; include("header.php");?>

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 	<?php $title='SmartVision'; include("head.php");?>
 	<?php $projects = true; include("header.php");?>

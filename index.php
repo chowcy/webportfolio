@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <?php $title = 'About'; include("head.php");?>
 
@@ -13,7 +14,7 @@
 						<h3>About</h3>
 							<p>Hello! My name's Cathy.
 							</p>
-							<p>I am:
+							<p>I am:</p>
 								<ul>
 									<li>a <a href="https://github.com/chowcy">programmer</a>,</li>
 									<li>a <a href="projects.php">designer</a>,</li>
@@ -21,8 +22,8 @@
 									<li>an <a href="img/educating.jpg">educator</a>, and</li>
 									<li>a <a href="https://www.goodreads.com/user/show/5364555-cathy-chow">reader</a>.</li>
 								</ul>
-							</p>
-							<p>I am currently seeking a full-time job in design or development starting May 2018. Feel free to contact me at chowcy (at) umich (dot) edu!</p>
+							<p>My favorite projects are those that create social impact and benefit communities. </p>
+							<p>I am currently seeking a full-time position starting May 2018. Feel free to contact me at chowcy (at) umich (dot) edu and view my <a href="resume.php">resume</a>!</p>
 					</section>
 
 				</div>

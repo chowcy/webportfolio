@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <?php $title='Translation'; include("head.php");?>
 <?php $translation = true; include("header.php");?>

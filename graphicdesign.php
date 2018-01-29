@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html lang="en">
-	<?php $title='Graphic Design'; include("head.php");?> 
-	<?php $projects = true; include("header.php");?> 
+	<?php $title='Graphic Design'; include("head.php");?>
+	<?php $projects = true; include("header.php");?>
 	<main id="main">
 		<div class="sample520">
 			<section>
@@ -42,6 +43,6 @@
 			</section>
 		</div>
 	</main>
-	<?php include("footer.php");?> 
+	<?php include("footer.php");?>
 </body>
 </html>
