@@ -7,7 +7,6 @@ aside {
 body {
 	background-color: rgb(225, 230, 240);
 	font-family: Tahoma, "Helvetica Neue", Helvetica, sans-serif;
-	margin-top: 80px;
 	margin-top: 122px;
 }
 
@@ -112,7 +111,7 @@ header {
 	background-color: rgba(0, 0, 0, 0);
 	float: none;
 	margin: 0 auto;
-	max-width: 330px;
+	max-width: 300px;
 }
 
 .navbar-nav > li {
@@ -124,6 +123,7 @@ header {
 }
 
 .navbar-nav h2 {
+	font-size: 18px;
 	margin: 0;
 }
 
@@ -140,7 +140,7 @@ header {
 
 .active h2:after, .navbar-nav > li > a:hover:after {
 	background: #663366;
-	bottom:0;
+	bottom: 9px;
 	content:"";
 	display: block;
 	height: 2px;
@@ -294,7 +294,7 @@ header {
 /* FOOTER */
 footer {
 	background-color: #FFFFFF;
-	border-top: 2px solid black;
+	border-top: 2px solid #663366;
 	bottom: 0;
 }
 
@@ -307,6 +307,10 @@ footer {
 	}
 	section {
 		padding: 1em;
+	}
+
+	.navbar-nav {
+		max-width: none;
 	}
 	.navbar-nav > li > a {
 		padding-bottom: 10px;
