@@ -12,7 +12,7 @@
 				<div class="col-xs-12 col-lg-6">
 					<section id="about" >
 						<h3>About</h3>
-							<p>Hello! My name's Cathy.
+							<p>Hello! My name is Cathy.
 							</p>
 							<p>I am:</p>
 								<ul>
@@ -22,7 +22,7 @@
 									<li>an <a href="img/educating.jpg">educator</a>, and</li>
 									<li>a <a href="https://www.goodreads.com/user/show/5364555-cathy-chow">reader</a>.</li>
 								</ul>
-							<p>My favorite projects are those that create social impact and benefit communities. </p>
+							<p>My favorite projects are those that engage others and benefit communities. I specialize in designing and building accessible, user-centric applications that have a meaningful impact.</p>
 							<p>I am currently seeking a full-time position starting May 2018. Feel free to contact me at chowcy (at) umich (dot) edu and view my <a href="resume.php">resume</a>!</p>
 					</section>
 
