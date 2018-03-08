@@ -5,8 +5,10 @@
 	<main id="main">
 		<section class="portfolio-section portfolio-overview">
 			<div class="centerize">
-				<h3>Free Your Stuff</h3>
-				<h4>UX Design.</h4>
+				<div class="title-section">
+					<h3>Free Your Stuff</h3>
+					<h4>UX Design.</h4>
+				</div>
 				<div class="row context">
 					<div class="col-xs-12 col-md-12 col-lg-6">
 						<h4>Overview</h4>
