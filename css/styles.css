@@ -67,6 +67,26 @@ section {
 ul {
 	font-size: 16px;
 	list-style-type: none;
+	text-align: left;
+}
+
+.dots {
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+.dots li {
+	position: relative;
+}
+.dots li::before {
+    content: '';
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    background-color: #663366;
+    left: -20px;
+    position: absolute;
+    top: 8px;
 }
 
 .external-links {
@@ -92,6 +112,15 @@ ul {
 /*ADD STYLES TO ANYTHING*/
 .margin0auto {
 	margin: 0 auto;
+}
+
+.centerize {
+	max-width: 40em;
+	margin: 0 auto;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 /*HEADER*/
@@ -261,10 +290,28 @@ header {
 	text-align: center;
 }
 
+.context img {
+	margin-top: 15px;
+}
+
+.context h4 {
+	font-style: normal;
+   font-weight: bold;
+	margin-bottom: 0;
+   margin-top: 15px;
+	text-align: left;
+}
+
+.context p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
 .portfolio-section p {
-	margin: 0 auto;
-	max-width: 40em;
-	padding-bottom: 1.5em;
+	/* margin: 0 auto;
+	max-width: 40em; */
+	/* padding-bottom: 1.5em; */
 	text-align: left;
 }
 
@@ -336,4 +383,5 @@ footer {
 	#name-subtitle {
 		display: inline;
 	}
+
 }
