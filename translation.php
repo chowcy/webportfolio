@@ -70,7 +70,7 @@
 					<p>Since 2013, I have been a volunteer translator for the University of Michigan Language
 						Resource Center's Language Bank, which provides free voluntary translation services to
 						"non-profit organizations, social justice efforts, and the local community" in particular.
-						 <a href="https://lsa.umich.edu/lrc/translation/LanguageBank.html" hreflang="en" target="_blank">
+						 <a href="https://lsa.umich.edu/lrc/translation/languagebank.html" hreflang="en" target="_blank">
 						 	Check out the Language Bank's website here!</a> As a Language Bank Volunteer,
 						 	I have proofread an article for 350.org and translated a rather hefty medical journal
 						 	article for a research team at the University.</p>
