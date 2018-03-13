@@ -145,7 +145,11 @@
 		<section class="portfolio-section">
 			<div class="centerize">
 				<h3>First Digital Prototype</h3>
-				<p>Using the feedback from my paper prototype, I created a <span class="bold">mid-to-high fi digital prototype</span> that I then tested with three users. I found several issues: </p>
+				<p>Using the feedback from my paper prototype, I created a <span class="bold">mid-to-high fi digital prototype</span> that I then tested with three users.</p>
+				<a href="img/fys-first-dig-prototype.jpg" data-lightbox="fys" data-title="First digital prototype">
+					<img src="img/fys-first-dig-prototype.jpg" width='50%' alt="first digital prototype">
+				</a>
+				<p>I found several issues: </p>
 				<ul class="dots">
 					<li>Wording: Both users had a different
 						expectation of what “See Availability” meant in the item listing. I had a clock
