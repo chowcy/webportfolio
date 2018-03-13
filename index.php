@@ -7,7 +7,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-lg-6">
-					<img alt="picture of Cathy after finishing half-marathon" src="img/marathon.jpg" id="face" class="img-responsive img-rounded">
+					<img id="self-img" alt="picture of Cathy after finishing half-marathon" src="img/marathon.jpg" id="face" class="img-responsive img-rounded">
 				</div>
 				<div class="col-xs-12 col-lg-6">
 					<section id="about" >
