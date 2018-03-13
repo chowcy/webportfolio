@@ -227,6 +227,10 @@ header {
 	color: #444;
 	display: none;
 }
+/* ABOUT */
+#self-img {
+	height: 422px;
+}
 
 /* PROJECTS PAGE WITH GRID */
 .project {
