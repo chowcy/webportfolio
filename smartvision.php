@@ -51,7 +51,7 @@
 			<div class="centerize">
 				<h3>Final Thoughts and Lessons</h3>
 				<p>This project presented quite a few challenges and remains incomplete. The biggest challenge was that our team lacked the resources and skills to do this project. I had web development skills, but had never used Android Studio or written Java, and my other teammates had not either. This resulted in us spending a lot of our time learning Android Studio. Second, since there are many magnifying apps in the market, our app at a minimum had to have the common features expected in an app, such as contrasting filters, ability to zoom, and an easy user interface, in order to be competitive. However, these features alone took so much time to implement that we did not make much progress by semester's end.</p>
-				<p>The lesson learned here is that teams need to honestly assess each team member's strengths and weaknesses and ensure a project is doable, given everybody's capabilities. Our vision for this app was perhaps too ambitious, but we learned our lessons, and the next app we developed -- <a href="/portfolio/eyediseasesimulator.php">an eye disease simulator</a> -- went better!</p>
+				<p>The lesson learned here is that teams need to honestly assess each team member's strengths and weaknesses and ensure a project is doable, given everybody's capabilities. Our vision for this app was perhaps too ambitious, but we learned our lessons, and the next app we developed -- <a href="/portfolio/eyediseasesimulator.php" hreflang="en">an eye disease simulator</a> -- went better!</p>
 			</div>
 		</section>
 
