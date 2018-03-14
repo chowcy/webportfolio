@@ -42,6 +42,11 @@
 				</a>
 			</section>
 		</div>
+		<section class="portfolio-section">
+			<div class="centerize">
+				<a href="projects.php">Browse other Projects</a>
+			</div>
+		</section>
 	</main>
 	<?php include("footer.php");?>
 </body>

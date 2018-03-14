@@ -104,6 +104,12 @@
 				<p>Special thanks to my wonderful teammates <a href="http://kaiwensun.me" hreflang="en" target="_blank">Kaiwen Sun</a>, <a href="http://radentonev.com" hreflang="en" target="_blank">Raden Tonev</a>, and Seungjoo David Baek for their contributions.</p>
 			</div>
 		</section>
+
+		<section class="portfolio-section">
+			<div class="centerize">
+				<a href="projects.php">Browse other Projects</a>
+			</div>
+		</section>
 	</main>
 	<?php include("footer.php");?>
 </body>
