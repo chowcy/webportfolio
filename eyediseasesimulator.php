@@ -12,11 +12,11 @@
 				<div class="row context">
 					<div class="col-xs-12 col-md-12 col-lg-6">
 						<h4>Overview</h4>
-						<p>As part of a multidisciplinary team project hosted by the University of Michigan College of Engineering and sponsored by the UM Kellogg Eye Center, our team redesigned an eye disease simulator mobile application that had previously been developed by a team of engineers led by our advisor. The app used Augmented Reality (AR) technology to simulate how those with eye diseases see the world, with the goal of educating others and increasing empathy towards low vision patients. Our team's goals were to 1) improve the app's usability and 2) redevelop the app on native Java instead of Unity for more flexibility in the future. Our team consisted of one advisor, one UX Researcher and Designer (me), and one full-stack Android developer.</p>
+						<p>As part of a multidisciplinary team project hosted by the University of Michigan College of Engineering and sponsored by the UM Kellogg Eye Center, our team recreated an eye disease simulator mobile application that had previously been developed by a team of engineers led by our advisor. The app uses AR to simulate how those with eye diseases see the world, with the goal of educating others and increasing empathy towards low vision patients. Our team's goals were to 1) improve the app's usability and 2) redevelop the app on native Java instead of Unity for more flexibility in the future. Our team consisted of one advisor, one UX Researcher and Designer (me), and one full-stack Android developer.</p>
 					</div>
 					<div class="col-xs-12 col-md-12 col-lg-6">
-						<a href="img/fys.jpg" data-lightbox="fys" data-title="Mid-fi Digital Prototype">
-							<img src="img/fys.jpg" width='50%' alt="mid-fi digital prototype">
+						<a href="img/eds.png" data-lightbox="eds" data-title="Mid-fi screen sample">
+							<img src="img/eds.png" width='100%' alt="mid-fi screen sample">
 						</a>
 					</div>
 				</div>
@@ -35,153 +35,119 @@
 					</div>
 					<div class="col-xs-12 col-md-6 col-lg-4">
 						<h4>Skills</h4>
-						<p>Wireframing, Prototyping, Heuristic Evaluation, Usability Testing</p>
+						<p>Wireframing, Prototyping, Heuristic Evaluation, Usability Testing, Writing Reports</p>
 					</div>
 				</div>
 			</div>
 		</section>
 		<section class="portfolio-section">
 			<div class="centerize">
-				<h3>Competitive Analysis</h3>
-				<p>Before ideating, I wanted to see how the problem of unnecessary waste
-					was currently being handled. I ran a competitive analysis, thinking about both digital-based (Facebook, Craigslist, Freecycle)
-					and physical-based systems (thrift stores), as well as an analogous system (Couchsurfing), which focused on
-					a different problem but had similar qualities. I compared these systems by several factors:</p>
-					<ul class="dots">
-						<li>price/cost</li>
-						<li>trust/safety</li>
-						<li>whether it helps people in need</li>
-					</ul>
-					<p>Forging connections with potential strangers can be fraught with danger, and users
-					in need likely have a low budget, so I wanted to make sure my solution was trustworthy and low-cost, but also addressed users' needs.</p>
-				<p>I found that thrift stores and selling on Facebook seemed the most trustworthy because in the former case, strangers don't need to meet, and in the latter,
-					 users can view information about each other before deciding to meet. Freecycle was the most low-cost because items were given away for free, which removed
-					  one of the significant barriers to exchanging items.
-					</p>
+				<h3>Background and Goals</h3>
+				<p>In early 2017, a team of engineers worked with our advisor and a sponsor from the Kellogg Eye Center at the University of Michigan to develop a mobile application that simulated eye diseases. This team had conducted <span class="bold">one interview</span> with the sponsor, who was an ophthalmologist, to identify <span class="bold">user needs</span> and develop a product that addresses those needs. They discovered that:</p>
+				<ul class="dots">
+					<li>patients and eye doctors had difficulties communicating with each other because "sight is difficult to describe." It is hard for patients to describe how they are seeing, especially given that they may suffer from several eye diseases, and it is hard for doctors to describe how treatment may affect a patient's vision.</li>
+					<li>patients may have trouble communicating with loved ones about how they see because sighted people may not fully understand how the patient sees the world.</li>
+				</ul>
+				<p>Additionally, one of the members of their engineering team had glaucoma, cataracts, and some vision loss in one eye, so he was able to provide insight on patients' experiences.</p>
+				<p>From this information, the team decided to build an eye disease simulator with two <span class="bold">goals</span> in mind:</p>
+				<ul class="dots">
+					<li>to improve a patient's quality of life by allowing them to better communicate their vision to loved ones, thus increasing empathy</li>
+					<li>to increase patient compliance by allowing doctors to better educate patients on how treatment (or failure to comply with treatment) could affect a patient's vision</li>
+				</ul>
+				<p>Given limited resources and difficulty accessing the user population of the app - eye doctors and patients with low vision - our team decided not to pursue further interviews with the user population when our team took over the project. Instead, we used the previous team's existing user research and focused our energy on improving the user interface and re-developing the application with Java instead of Unity, which had posed limitations for the previous development team.</p>
 			</div>
-			<a href="img/competitiveanalysis.jpg" data-lightbox="fys" data-title="Competitve Analysis Chart">
-				<img src="img/competitiveanalysis.jpg" width='50%' alt="competitive analysis chart">
+
+		</section>
+		<section class="portfolio-section">
+			<div class="centerize">
+				<h3>Interaction Map</h3>
+				<p>While my teammate worked on researching VR libraries and getting our new app off the ground, I focused my efforts on the user interface experience. My first step in redesigning the application was to map out the interactions in the existing application to examine the current interaction flow and get a comprehensive overview of the app. The app guides the user through a series of steps to set up and draw the blind spots that will be displayed during the simulation. However, the map reveals a linear flow of many steps, without any back buttons, as well as unclear visual indicators on how to interact after the simulation.</p>
+			</div>
+			<a href="img/eds-interaction-map.jpg" data-lightbox="eds" data-title="Interaction Map">
+				<img src="img/eds-interaction-map.jpg" width='50%' alt="interaction map of previous app">
 			</a>
 		</section>
 		<section class="portfolio-section">
 			<div class="centerize">
-				<h3>Personas</h3>
-				<p>UX Design is not complete without considering users. To help with the design process, I created 5 personas based on my observations from following several Facebook Marketplace groups, including several that only exchanged free items. The personas
-					I created represented different potential users of my design:</p>
-				<ul class="dots">
-					<li>a social worker</li>
-					<li>an international student</li>
-					<li>an undergraduate student living in a dorm</li>
-					<li>a student living in a co-op</li>
-					<li>a retired man in a nursing home</li>
-				</ul>
- 				<p>The last persona was an anti-persona, which described the users I was not designing for. These personas helped me step through scenarios as different personas to better understand how my solution
-					 could be designed and used by the user population.</p>
+				<h3>Heuristic Evaluation</h3>
+				<p>Next, I did a usability analysis of the previous app using Nielsen's (1994) Ten Usability Heuristics, which are a set of general usability principles. I stepped through the app one heuristic at a time to analyze which principles were violated and which not. As a starting point to my design process, the heuristic evaluation and interaction map were a quick way to find the most egregious usability issues in the app without having to recruit others. As the sole UX researcher and designer, I needed to work quickly and begin designing as soon as possible.</p>
 			</div>
-			<a href="img/personas.jpg" data-lightbox="fys" data-title="Collage of Personas Created">
-			</a>
-			<img src="img/personas.jpg" width='50%' alt="some personas">
-		</section>
-		<section class="portfolio-section">
+			<img src="https://public-media.interaction-design.org/images/uploads/bc407d74dd91972a7370c0e22cfacc36.jpg" alt="" width="50%">
+			<aside>Image from the Interaction Design Foundation</aside>
 			<div class="centerize">
-				<h3>From Ideation to Decision</h3>
-				<p>From the comparative analysis, I saw a diverse set of solutions, and had identified
-				some advantages and disadvantages of each one. From the personas, I knew what kinds of users to design for. With this knowledge, I <span class="bold">ideated</span>: I brainstormed
-				and <span class="bold">sketched</span> eight potential solutions, ranging from a free drop-off, drop-in location to a mobile app that connected "buyers" and "sellers."
-				 The focus was not on high-fidelity
-				mockups, but on pencil sketches on paper that represented general ideas that could be expanded on later.</p>
-				<p>After my first eight initial sketches, I fleshed them out and sketched <span class="bold">user stories</span>. My goal was to think through a scenario for each solution. What steps does a user take to get an item they need?
-				What about a user that is trying to get rid of an item? What is the context, the environment, and the interface like?
-				</p>
-				<p>After much ideation, it was time to narrow down and make a <span class="bold">decision</span> on which solution I would prototype and present. One of the <span class="bold">limitations</span> of this project was
-					 that the course required us to select a digital solution, preferrably a web or mobile app interface,
-					so even though I had come up with several non-digital solutions, I chose to create an app because of the course requirements. Without this limitation,
-					 I would have conducted more user research, such as contextual interviews and surveys, to learn more about users' needs and limitations, and my design solution would have been based on my findings.</p>
-			</div>
-			<a href="img/582sketches.jpg" data-lightbox="fys" data-title="First round of brainstorming sketches">
-				<img src="img/582sketches.jpg" width='50%' alt="brainstorming sketches">
-			</a>
-		</section>
-
-		<section class="portfolio-section">
-			<div class="centerize">
-				<h3>Paper Prototype</h3>
-				<p>After deciding to design a mobile app, it was time to consider the <span class="bold">information architecture</span> and the <span class="bold">interaction design</span>. I made a paper prototype to
-					illustrate the initial interactions for my app. This was admittedly very challenging to me because it was the first time I had been asked to design
-					an interface from scratch, so after completing my prototype, I recruited users to "test" it to gain <span class="bold">feedback</span> for my next iteration. I had users try to
-					play with the paper prototype while I sat next to them and moved the paper pieces around to show them what would happen if they tapped certain parts.
-					If certain parts weren't prototyped yet, I would verbally tell them what the result of a certain interaction would be.</p>
-				<p>This <span class="bold">user testing</span> was critical to my process! I learned:</p>
+				<p>I found that the app had the biggest usability issues with regard to "User Control and Freedom", "Recognition Rather than Recall," and "Visibility of System Status."</p>
 				<ul class="dots">
-					<li>I was missing back buttons. (Yikes!)</li>
-					<li>the home page, which was a static navigation page with 4 options, was redundant and confusing to users because every other page had a fixed bottom navigation.</li>
-					<li>I needed to rethink the rating system. I wanted to make sure my app was trustworthy, so I had a rating system for each user like in Uber or AirBnb where trust is vital. However, because the app simply allowed users to message each other and
-						arrange their own meeting time and pick up, the app would not know when and if a transaction
-						had taken place, so they could not be prompted to rate each other after a transaction.</li>
-				</ul>
-
-				<p>After this crucial feedback from users, I made the following <span class="bold">design decisions</span>:</p>
-				<ul class="dots">
-					<li>Add back buttons and label the page title at the top so people knew where they were and could navigate back.</li>
-					<li>Repurpose the home screen to be a feed showing items available in the area, following design patterns in homepages.</li>
-					<li>Introduce a "request" step to the exchange process, similar to that in AirBnB, where lodgers “request” to reserve a space and the
-						hosts confirm. Having a reservation system would help other users know the availability status of an item. The app would also know when a transaction took place, so it could
-						prompt users to rate each other, thus establishing a rating system for users.</li>
-				</ul>
-				<div class="embed-size margin0auto">
-					<div class="embed-responsive embed-responsive-16by9">
-						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PHhft_YIWkQ" frameborder="0" allowfullscreen>Free Your Stuff Paper Prototype</iframe>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="portfolio-section">
-			<div class="centerize">
-				<h3>First Digital Prototype</h3>
-				<p>Using the feedback from my paper prototype, I created a <span class="bold">mid-to-high fi digital prototype</span> that I then tested with three users. I found several issues: </p>
-				<ul class="dots">
-					<li>Wording: Both users had a different
-						expectation of what “See Availability” meant in the item listing. I had a clock
-						icon to show that this had to do with pick-up time availability, but both users expected it
-						to show them whether the item was still available to be given away, which makes sense.
-						Based on this, I decided to change the wording.</li>
-					<li>Icons: There were some problems with the icons in the navigation bar. Although the search and messages icons were intuitive, the
-						other two were less so. I had an icon of a handshake representing "Exchanges, which I imagined
-						would be where people can view their requested items, see their own listings, and
-						receive notifications about requests. Because the handshake icon is not intuitive, one
-						user suggested making small labels for the navigation. The other icon on the bottom
-						navigation is the map icon, but both users deemed it unnecessary. Although a map
-						interface is nice, I realized it could be integrated into the browse feature and removed from the bottom navigation.</li>
-					<li>ISO users: I had not designed for how users in need can make a post about items they were looking for, which should show up on the feed and
-						search results. One user pointed out that those posts would probably not have a picture,
-						so using that space to write “ISO” (in search of) could be a way to indicate that this an
-						ISO post and not a “giving away” post.</li>
+					<li><span class="bold">User Control and Freedom</span> means that users should have the freedom to undo, redo, and make mistakes and be able to recover from them. The app had no back buttons, and any mistakes users made meant that the user had to start from the beginning again.</li>
+					<li><span class="bold">Recognition Rather than Recall</span> means that users should not be required to recall information. Instead, information should be displayed so users only need to recognize information. The app led users through a linear series of steps that require users to recall what they have already done.</li>
+					<li><span class="bold">Visibility of System Status</span> means that the system should keep users updated with what is happening and what the user's status is. The app did not show users' progress through the many steps before the simulation.</li>
 				</ul>
 			</div>
 		</section>
 
 		<section class="portfolio-section">
 			<div class="centerize">
-				<h3>Revised Digital Prototype</h3>
-				<p>After two more iterations and more user feedback, I eventually produced a hi-fi digital prototype of my app.</p>
-				<div class="embed-size margin0auto">
-					<div class="embed-responsive embed-responsive-16by9">
-						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L8mPY4RmsSs?ecver=1" allowfullscreen>Free Your Stuff Digital Prototype</iframe>
-					</div>
-				</div>
+				<h3>Wireframing</h3>
+				<p>With information on the usability issues in the previous app, I sketched and wireframed screens. My goals were to:</p>
+				<ul class="dots">
+					<li>increase user control and freedom through the addition of back buttons</li>
+					<li>decrease the number of steps involved where there is no system status and users need to recall where they are</li>
+					<li>have a tool for communicating design ideas to our developer</li>
+				</ul>
+				<p>I designed a "home" area for each simulation so that instead of linearly doing the left eye then the right eye, users could have control over the order and see the progress of certain eyes as they inputted the blind spots for each eye. After creating the wireframes, I prototyped them using Marvel to illustrate interactions and flows.</p>
+				<a href="img/eds-first-design.png" data-lightbox="eds" data-title="First digital wireframe">
+					<img src="img/eds-first-design.png" width='90%' alt="first digital wireframe">
+				</a>
+			</div>
+		</section>
+
+		<section class="portfolio-section">
+			<div class="centerize">
+				<h3>Usability Testing</h3>
+				<p>My work as a designer was not done without some usability testing to ensure that others could use the app. I needed feedback to improve my designs. Our advisor and team made the decision to do <span class="bold">testing on the actual app</span> instead of on my prototype because of development limitations. With only one developer, who was invested in debugging why the app was crashing and not invested in the front end, we wanted to test the interface of the actual app that the developer could build, not on the idealized version of the app that my prototype represented, which might never be realized fully by the developer. </p>
+				<p>I handed my wireframes over to our developer, who developed the front end and sent me the app in its current state. I then recruited two people to complete five tasks to complete using the app. As they attempted the tasks, I asked them to think aloud to explain their interaction choices. I <span class="bold">observed</span> them and took notes, trying to stay in the background as much as possible and let them figure things out. However, occasionally, the app would crash and close because the implementation was not complete and I would have to intervene. At the end of the sessions, I did a brief <span class="bold">debriefing interview</span> with the user to hear their thoughts.</p>
+				<a href="img/eds-usability-testing.jpg" data-lightbox="eds" data-title="Usability Test on Eye Disease Simulator">
+					<img src="img/eds-usability-testing.jpg" width='70%' alt="usability test on eye disease simulator">
+				</a>
+				<p>Afterwards, I synthesized the behavior patterns I had been seeing, and wrote a report detailing my findings for my team. Some main findings were that:</p>
+				<ul class="dots">
+					<li>the pen size was too small, making for awkward and time-consuming drawing of blind spots</li>
+					<li>there needed to be more confirmation dialogues. Most users did not know if they had successfully saved a simulation</li>
+					<li>users did not know how to get to the drawing screen of the eye</li>
+					<li>sizing and grouping of elements made users confused. The create simulation button was so large that people didn't notice other things on the screen, and the saved simulations were near the create button, making them seem more related than they were.</li>
+				</ul>
+			</div>
+		</section>
+		<section class="portfolio-section">
+			<div class="centerize">
+				<h3>Iteration</h3>
+				<p>I used these findings to drive my design decisions as I improved upon the app. Several of the issues brought up in the usability tests were because of discrepancies between the design and the implementation. For example, in my design, there were pencil icons near each eye to indicate that users could edit and draw the blind spots for an eye. In the app, these didn't exist because it was challenging to implement given the time constraints. Other findings from the usability tests were things that I could change in the design. For example, I added more confirmation dialogues during critical moments in the flow, such as when people are saving or deleting simulations.</p>
+				<a href="img/eds-second-design.jpg" data-lightbox="eds" data-title="Confirmation dialogue in second design">
+					<img src="img/eds-second-design.jpg" width='70%' alt="confirmation dialogue in second design">
+				</a>
+				<p>After sending our developer the new wireframes and prototypes, our developer made the front end changes and I did usability testing yet again with some users. Some of the findings were the same since certain parts of the interface had not been changed yet, but the rest of them were more specific and in-depth. We did two iterations of research - design - develop before the semester ended.</p>
+				<a href="img/eds-iteration.jpg" data-lightbox="eds" data-title="Diagram of iteration">
+					<img src="img/eds-iteration.jpg" width='70%' alt="diagram of iteration process">
+				</a>
+			</div>
+		</section>
+		<section class="portfolio-section">
+			<div class="centerize">
+				<h3>Presentation Poster</h3>
+				<p>Our advisor was the one who presented our work to our sponsors. For that presentation, he asked me to create the poster for him to use, which I was honored to do. My work was more visible and understandable to our stakeholders and sponsors than the code was.</p>
+				<a href="img/eds-poster.jpg" data-lightbox="eds" data-title="Eye Disease Simulator Presentation Poster">
+					<img src="img/eds-poster.jpg" width='100%' alt="eye disease simulator presentation poster">
+				</a>
 			</div>
 		</section>
 
 		<section class="portfolio-section">
 			<div class="centerize">
 				<h3>Lessons</h3>
-				<p>This was the first time I had prototyped an interface in detail, and I learned a lot! More specifically:</p>
+				<p>This was a challenging project, but I am very happy to have been part of it! I got a glimpse into the world of working with people from other disciplines and understanding limitations. Some takeaways are:</p>
 				<ul class="dots">
-					<li>Look at other applications to find <span class="bold">design standards</span> (ex. what does a home page look like) when designing from scratch.</li>
-					<li>Never forget the <span class="bold">back button</span>!</li>
-					<li>Test test test test test! I gained so much valuable <span class="bold">feedback</span> by talking to users trying to use my app.</li>
-					<li>Hi-fi prototypes are time-consuming, so spend more time with <span class="bold">lower fidelity prototypes</span> to get the biggest usability issues out of the way efficiently.</li>
+					<li>Not everybody knows or cares about UX and design. Advocate for UX by <span class="bold">learning to talk their talk</span>, whether that means bringing in research or drawing on their empathy as users themselves.</li>
+					<li><span class="bold">Real-world limitations</span> will cramp your usual design (and research) process - and that's okay! Adapt.</li>
+					<li>Expect to <span class="bold">communicate more</span> when working in multidisciplinary teams. You will often have to teach UX concepts and provide supplementary background information that you don't normally have to do in a team of other designers.</li>
 				</ul>
 			</div>
 		</section>
