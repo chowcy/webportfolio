@@ -12,7 +12,7 @@
 				<div class="row context">
 					<div class="col-xs-12 col-md-12 col-lg-6">
 						<h4>Overview</h4>
-						<p>As part of a multidisciplinary team project hosted by the University of Michigan College of Engineering and sponsored by the UM Kellogg Eye Center, our team recreated an eye disease simulator mobile application that had previously been developed by a team of engineers led by our advisor. The app uses AR to simulate how those with eye diseases see the world, with the goal of educating others and increasing empathy towards low vision patients. Our team's goals were to 1) improve the app's usability and 2) redevelop the app on native Java instead of Unity for more flexibility in the future. Our team consisted of one advisor, one UX Researcher and Designer (me), and one full-stack Android developer.</p>
+						<p>As part of a multidisciplinary team project, our team recreated an eye disease simulator mobile application that had previously been developed by a team of engineers led by our advisor. The app uses Augmented Reality to simulate how those with eye diseases see the world to educate others and increase empathy towards low vision patients. Our team's goals were to 1) improve the app's usability and 2) redevelop the app with Java. Our team consisted of one advisor, one UX Researcher and Designer (me), and one full-stack Android developer.</p>
 					</div>
 					<div class="col-xs-12 col-md-12 col-lg-6">
 						<a href="img/eds.png" data-lightbox="eds" data-title="Mid-fi screen sample">
@@ -45,14 +45,14 @@
 				<h3>Background and Goals</h3>
 				<p>In early 2017, a team of engineers worked with our advisor and a sponsor from the Kellogg Eye Center at the University of Michigan to develop a mobile application that simulated eye diseases. This team had conducted <span class="bold">one interview</span> with the sponsor, who was an ophthalmologist, to identify <span class="bold">user needs</span> and develop a product that addresses those needs. They discovered that:</p>
 				<ul class="dots">
-					<li>patients and eye doctors had difficulties communicating with each other because "sight is difficult to describe." It is hard for patients to describe how they are seeing, especially given that they may suffer from several eye diseases, and it is hard for doctors to describe how treatment may affect a patient's vision.</li>
+					<li>patients and eye doctors had difficulties communicating with each other because "sight is difficult to describe."</li>
 					<li>patients may have trouble communicating with loved ones about how they see because sighted people may not fully understand how the patient sees the world.</li>
 				</ul>
 				<p>Additionally, one of the members of their engineering team had glaucoma, cataracts, and some vision loss in one eye, so he was able to provide insight on patients' experiences.</p>
 				<p>From this information, the team decided to build an eye disease simulator with two <span class="bold">goals</span> in mind:</p>
 				<ul class="dots">
 					<li>to improve a patient's quality of life by allowing them to better communicate their vision to loved ones, thus increasing empathy</li>
-					<li>to increase patient compliance by allowing doctors to better educate patients on how treatment (or failure to comply with treatment) could affect a patient's vision</li>
+					<li>to increase treatment compliance by allowing doctors to better educate patients on how treatment (or failure to comply with treatment) could affect a patient's vision</li>
 				</ul>
 				<p>Given limited resources and difficulty accessing the user population of the app - eye doctors and patients with low vision - our team decided not to pursue further interviews with the user population when our team took over the project. Instead, we used the previous team's existing user research and focused our energy on improving the user interface and re-developing the application with Java instead of Unity, which had posed limitations for the previous development team.</p>
 			</div>
@@ -61,7 +61,7 @@
 		<section class="portfolio-section">
 			<div class="centerize">
 				<h3>Interaction Map</h3>
-				<p>While my teammate worked on researching VR libraries and getting our new app off the ground, I focused my efforts on the user interface experience. My first step in redesigning the application was to map out the interactions in the existing application to examine the current interaction flow and get a comprehensive overview of the app. The app guides the user through a series of steps to set up and draw the blind spots that will be displayed during the simulation. However, the map reveals a linear flow of many steps, without any back buttons, as well as unclear visual indicators on how to interact after the simulation.</p>
+				<p>While my teammate worked on researching AR libraries and getting our new app off the ground, I focused my efforts on the user interface experience. My first step in redesigning the application was to map out the interactions in the existing application to examine the <span class="bold">current interaction flow</span> and get a comprehensive overview of the app. The app guides the user through a series of steps to set up and draw the blind spots that will be displayed during the simulation. However, the map reveals a linear flow of many steps, without any back buttons, as well as unclear visual indicators on how to interact after the simulation.</p>
 			</div>
 			<a href="img/eds-interaction-map.jpg" data-lightbox="eds" data-title="Interaction Map">
 				<img src="img/eds-interaction-map.jpg" width='50%' alt="interaction map of previous app">
@@ -70,15 +70,15 @@
 		<section class="portfolio-section">
 			<div class="centerize">
 				<h3>Heuristic Evaluation</h3>
-				<p>Next, I did a usability analysis of the previous app using Nielsen's (1994) Ten Usability Heuristics, which are a set of general usability principles. I stepped through the app one heuristic at a time to analyze which principles were violated and which not. As a starting point to my design process, the heuristic evaluation and interaction map were a quick way to find the most egregious usability issues in the app without having to recruit others. As the sole UX researcher and designer, I needed to work quickly and begin designing as soon as possible.</p>
+				<p>Next, I did a usability analysis of the previous app using Nielsen's (1994) Ten Usability Heuristics, which are a set of general <span class="bold">usability principles</span>. I stepped through the app one heuristic at a time to analyze which principles were violated and which not. As a starting point to my design process, the heuristic evaluation and interaction map were a quick way to find the most egregious usability issues in the app without having to recruit others. As the sole UX researcher and designer, I needed to work quickly and begin designing as soon as possible.</p>
 			</div>
 			<img src="https://public-media.interaction-design.org/images/uploads/bc407d74dd91972a7370c0e22cfacc36.jpg" alt="" width="50%">
 			<aside>Image from the Interaction Design Foundation</aside>
 			<div class="centerize">
-				<p>I found that the app had the biggest usability issues with regard to "User Control and Freedom", "Recognition Rather than Recall," and "Visibility of System Status."</p>
+				<p>I found that the app had the biggest usability issues with regard to "User Control and Freedom," "Recognition Rather than Recall," and "Visibility of System Status."</p>
 				<ul class="dots">
 					<li><span class="bold">User Control and Freedom</span> means that users should have the freedom to undo, redo, and make mistakes and be able to recover from them. The app had no back buttons, and any mistakes users made meant that the user had to start from the beginning again.</li>
-					<li><span class="bold">Recognition Rather than Recall</span> means that users should not be required to recall information. Instead, information should be displayed so users only need to recognize information. The app led users through a linear series of steps that require users to recall what they have already done.</li>
+					<li><span class="bold">Recognition Rather than Recall</span> means that users should not be required to recall information. Instead, information should be displayed so users only need to recognize information. The app led users through a linear series of steps that required users to recall what they have already done.</li>
 					<li><span class="bold">Visibility of System Status</span> means that the system should keep users updated with what is happening and what the user's status is. The app did not show users' progress through the many steps before the simulation.</li>
 				</ul>
 			</div>
@@ -90,7 +90,7 @@
 				<p>With information on the usability issues in the previous app, I sketched and wireframed screens. My goals were to:</p>
 				<ul class="dots">
 					<li>increase user control and freedom through the addition of back buttons</li>
-					<li>decrease the number of steps involved where there is no system status and users need to recall where they are</li>
+					<li>decrease the number of linear steps involved and favor cyclical flows for more user mobility and understanding of system status</li>
 					<li>have a tool for communicating design ideas to our developer</li>
 				</ul>
 				<p>I designed a "home" area for each simulation so that instead of linearly doing the left eye then the right eye, users could have control over the order and see the progress of certain eyes as they inputted the blind spots for each eye. After creating the wireframes, I prototyped them using Marvel to illustrate interactions and flows.</p>
@@ -120,11 +120,11 @@
 		<section class="portfolio-section">
 			<div class="centerize">
 				<h3>Iteration</h3>
-				<p>I used these findings to drive my design decisions as I improved upon the app. Several of the issues brought up in the usability tests were because of discrepancies between the design and the implementation. For example, in my design, there were pencil icons near each eye to indicate that users could edit and draw the blind spots for an eye. In the app, these didn't exist because it was challenging to implement given the time constraints. Other findings from the usability tests were things that I could change in the design. For example, I added more confirmation dialogues during critical moments in the flow, such as when people are saving or deleting simulations.</p>
+				<p>I used these findings to drive my design decisions as I improved upon the app. Several of the issues brought up in the usability tests were because of <span class="bold">discrepancies</span> between the design and the implementation. For example, in my design, there were pencil icons near each eye to indicate that users could edit and draw the blind spots for an eye. In the app, these didn't exist because it was challenging to implement given the time constraints. Other findings from the usability tests were things that I could change in the design. For example, I added more confirmation dialogues during critical moments in the flow, such as when people are saving or deleting simulations.</p>
 				<a href="img/eds-second-design.jpg" data-lightbox="eds" data-title="Confirmation dialogue in second design">
 					<img src="img/eds-second-design.jpg" width='70%' alt="confirmation dialogue in second design">
 				</a>
-				<p>After sending our developer the new wireframes and prototypes, our developer made the front end changes and I did usability testing yet again with some users. Some of the findings were the same since certain parts of the interface had not been changed yet, but the rest of them were more specific and in-depth. We did two iterations of research - design - develop before the semester ended.</p>
+				<p>After sending our developer the new wireframes and prototypes, our developer made the front end changes and I did usability testing yet again with some users. Some of the findings were the same since certain parts of the interface had not been changed yet, but the rest of them were more specific and in-depth. We did two iterations of a <span class="bold">research - design - develop cycle</span> before the semester ended.</p>
 				<a href="img/eds-iteration.jpg" data-lightbox="eds" data-title="Diagram of iteration">
 					<img src="img/eds-iteration.jpg" width='70%' alt="diagram of iteration process">
 				</a>
@@ -133,7 +133,7 @@
 		<section class="portfolio-section">
 			<div class="centerize">
 				<h3>Presentation Poster</h3>
-				<p>Our advisor was the one who presented our work to our sponsors. For that presentation, he asked me to create the poster for him to use, which I was honored to do. My work was more visible and understandable to our stakeholders and sponsors than the code was.</p>
+				<p>At the end of the year, our advisor was to present our work to our sponsors. For that presentation, he asked me to create the poster for him to use, which I was honored to do. My work was more visible and understandable to our stakeholders and sponsors than the code was. Here is the poster:</p>
 				<a href="img/eds-poster.jpg" data-lightbox="eds" data-title="Eye Disease Simulator Presentation Poster">
 					<img src="img/eds-poster.jpg" width='100%' alt="eye disease simulator presentation poster">
 				</a>
