@@ -65,8 +65,8 @@
 					  one of the significant barriers to exchanging items.
 					</p>
 			</div>
-			<a href="img/competitiveanalysis.jpg" data-lightbox="fys" data-title="Competitve Analysis Chart">
-				<img src="img/competitiveanalysis.jpg" width='50%' alt="competitive analysis chart">
+			<a href="img/fys-competitive-analysis.jpg" data-lightbox="fys" data-title="Competitive Analysis Chart">
+				<img src="img/fys-competitive-analysis.jpg" width='50%' alt="competitive analysis chart">
 			</a>
 		</section>
 		<section class="portfolio-section">
@@ -84,9 +84,9 @@
  				<p>The last persona was an anti-persona, which described the users I was not designing for. These personas helped me step through scenarios as different personas to better understand how my solution
 					 could be designed and used by the user population.</p>
 			</div>
-			<a href="img/personas.jpg" data-lightbox="fys" data-title="Collage of Personas Created">
+			<a href="img/fys-personas.jpg" data-lightbox="fys" data-title="Collage of Personas Created">
 			</a>
-			<img src="img/personas.jpg" width='50%' alt="some personas">
+			<img src="img/fys-personas.jpg" width='50%' alt="some personas">
 		</section>
 		<section class="portfolio-section">
 			<div class="centerize">
@@ -104,8 +104,8 @@
 					so even though I had come up with several non-digital solutions, I chose to create an app because of the course requirements. Without this limitation,
 					 I would have conducted more user research, such as contextual interviews and surveys, to learn more about users' needs and limitations, and my design solution would have been based on my findings.</p>
 			</div>
-			<a href="img/582sketches.jpg" data-lightbox="fys" data-title="First round of brainstorming sketches">
-				<img src="img/582sketches.jpg" width='50%' alt="brainstorming sketches">
+			<a href="img/fys-sketches.jpg" data-lightbox="fys" data-title="First round of brainstorming sketches">
+				<img src="img/fys-sketches.jpg" width='50%' alt="brainstorming sketches">
 			</a>
 		</section>
 
