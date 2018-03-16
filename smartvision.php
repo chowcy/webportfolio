@@ -3,19 +3,44 @@
 	<?php $title='SmartVision'; include("head.php");?>
 	<?php $projects = true; include("header.php");?>
 	<main id="main">
-		<section class="portfolio-section">
+		<section class="portfolio-section portfolio-overview">
 			<div class="centerize">
-				<h3>SmartVision</h3>
-				<h4>UX Design. Prototyping. App Development.</h4>
-				<p>mobile app design/dev for low-vision people.</p>
+				<div class="title-section">
+					<h3>SmartVision</h3>
+					<h4>UX Design</h4>
+				</div>
+				<div class="row context">
+					<div class="col-xs-12 col-md-12 col-lg-6">
+						<h4>Overview</h4>
+						<p>SmartVision is a smartphone application that aims to improve low-vision patients’ lives, especially those who suffer from central vision loss, by being a relatively inexpensive, portable, and multifunctional magnifying tool. </p>
+					</div>
+					<div class="col-xs-12 col-md-12 col-lg-6">
+						<a href="img/eds.png" data-lightbox="eds" data-title="Mid-fi screen sample">
+							<img src="img/eds.png" width='100%' alt="mid-fi screen sample">
+						</a>
+					</div>
+				</div>
+				<div class="row context">
+					<div class="col-xs-12 col-md-6 col-lg-4">
+						<h4>Role</h4>
+						<p>UX Designer</p>
+						<h4>Time Frame</h4>
+						<p>Feb 2017 - Apr 2017</p>
+					</div>
+					<div class="col-xs-12 col-md-6 col-lg-4">
+						<h4>Context</h4>
+						<p>Applied Team Project</p>
+						<h4>Tools</h4>
+						<p>Paper and pencil, Photoshop, Marvel</p>
+					</div>
+					<div class="col-xs-12 col-md-6 col-lg-4">
+						<h4>Skills</h4>
+						<p>Wireframing, Prototyping, Presenting</p>
+					</div>
+				</div>
 			</div>
 		</section>
-		<section class="portfolio-section">
-			<div class="centerize">
-				<h3>Problem and Goal Statement</h3>
-				<p>SmartVision is a smartphone application that aims to improve low-vision patients’ lives, especially those who suffer from central vision loss, by being a relatively inexpensive, portable, and multifunctional magnifying tool.</p>
-			</div>
-		</section>
+
 		<section class="portfolio-section">
 			<div class="centerize">
 				<h3>Competitive Analysis</h3>

@@ -63,7 +63,7 @@
             <div class="uk-panel-box">
                <section class="project">
                   <h3>SmartVision</h3>
-                  <h4>UX Design. UX Research. </h4>
+                  <h4>UX Design.</h4>
                   <div class="overlay-container">
                      <img class="img-responsive" src="img/tile-smartvision.jpg" alt="">
                      <a href="smartvision.php" hreflang="en">
